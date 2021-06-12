@@ -1,38 +1,95 @@
+* {
+  margin: 0px;
+}
 .App {
+  background-color: #eeeeee46;
+}
+body {
+  background-image: url('./Components/Images/58WicPA.jpg');
+}
+.page-item {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+.page-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(233, 155, 12);
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 2px rgb(123, 197, 142);
+  
+}
+
+.page-button:hover {
+  background-color: #ffc400;;
+}
+
+.page-button:active {
+  background-color: #ff7300;;
+  box-shadow: 0 3px rgb(123, 197, 142);
+  transform: translateY(4px);
+}
+.pagination {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.UserList {
+  border-radius: 25px;
+  display: grid;
+  min-height: 200px;
+  align-content: center;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  background-color: #ffc4006e;
+  padding: 15px 15px;
+  max-width: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px 0 rgba(182, 182, 182, 0.2),
+    0 1px 5px 0 rgba(255, 255, 255, 0.19);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ProfilePicture {
+  display: inline-block;
+  margin-left: 30px;
+  margin-top: 10px;
+  transition: ease-in 0.2s;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Detail {
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
+  font-size: 20px;
+  display: inline-block;
+  line-height: 2;
+}
+.HeaderTitle {
+  text-align: center;
+  font-size: 52px;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -1px black;
 }
 
-.App-link {
-  color: #61dafb;
+.icon1 {
+  height: 22px;
+  width: 16px;
+  margin-right: 12px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon2 {
+  height: 22px;
+  width: 22px;
+  margin-right: 5px;
 }
