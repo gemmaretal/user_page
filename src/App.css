@@ -3,9 +3,12 @@
 }
 .App {
   background-color: #eeeeee46;
+  height: 100%;
+  min-height: 1080px;
 }
 body {
   background-image: url('./Components/Images/58WicPA.jpg');
+ 
 }
 .page-item {
   display: inline-block;
